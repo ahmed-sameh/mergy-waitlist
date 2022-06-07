@@ -74,14 +74,11 @@ body {
 .nav-bar .brand-name {
   font-family: 'Merienda', cursive;
   color: var(--light-purble-color);
+  color: #ff924b;
   font-weight: 900;
   font-size: 28px;
   overflow: hidden;
   text-transform: capitalize;
-}
-
-.nav-bar .brand-name span {
-  color: #ff924b;
 }
 
 .nav-bar .nav-container {
