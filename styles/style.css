@@ -73,12 +73,16 @@ body {
 
 .nav-bar .brand-name {
   font-family: 'Merienda', cursive;
-  color: var(--light-purble-color);
   color: #ff924b;
   font-weight: 900;
   font-size: 28px;
   overflow: hidden;
   text-transform: capitalize;
+  transition: var(--main-transition);
+}
+
+.nav-bar .brand-name:hover {
+  color: var(--light-purble-color);
 }
 
 .nav-bar .nav-container {
@@ -274,6 +278,7 @@ body {
   position: relative;
   width: fit-content;
   max-width: 550px;
+  margin: 0 auto;
 }
 
 
