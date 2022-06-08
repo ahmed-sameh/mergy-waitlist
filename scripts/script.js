@@ -60,7 +60,7 @@ class App {
         }
         }).then( response => {
           if(response.status === 400) {
-            alert('Your mail is exist in our list. Need To add another mail !?')
+            alert(`Your Email Is Already In Our Waiting List, When The App Is Ready You Will Be Notified`)
           }
         })
 
