@@ -11,6 +11,11 @@
   padding: 0;
 }
 
+*::selection {
+  background-color: var(--light-purble-color);
+  color: #FFF;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -502,7 +507,16 @@ body {
 
 .contact-sec .contact-container .contact-form {
   align-self: center;
-  padding: 30px 0;
+  padding: 0;
+}
+
+.contact-sec .contact-container .contact-form .contact-phase {
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #818181;
+  font-size: 28px;
+
 }
 
 .contact-sec .contact-container .contact-form form {
