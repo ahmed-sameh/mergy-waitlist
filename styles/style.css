@@ -556,3 +556,19 @@ body {
 .contact-sec .contact-container .contact-form form .btn-submit:hover {
   background-image: linear-gradient(to right, var(--dark-orange-color) , var(--light-orange-color));
 }
+
+
+
+
+
+
+footer {
+  padding: 30px 0;
+  text-align: center;
+  border-top: 1px solid #484848;
+}
+
+footer p {
+  margin: 0;
+  color: #8d8d8d;
+}
