@@ -433,6 +433,14 @@ body {
   flex-wrap: wrap;
 }
 
+
+@media (max-width: 1200px ) {
+  .team-sec .team-container {
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
 .team-sec .team-member {
   padding: 30px 20px;
   min-width: 230px;
