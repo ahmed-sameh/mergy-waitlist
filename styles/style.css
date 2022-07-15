@@ -428,10 +428,9 @@ body {
 
 .team-sec .team-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  gap: 10vw;
 }
 
 .team-sec .team-member {
@@ -443,6 +442,11 @@ body {
   flex-direction: column;
   text-align: center;
   gap: 25px;
+  transition: var(--main-transition);
+}
+
+.team-sec .team-member:hover {
+  transform: translateY(-10px);
 }
 
 .team-sec .mem-img img {
